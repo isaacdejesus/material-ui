@@ -10,3 +10,6 @@ export interface MenuItem {
     path: string
 }
 
+export interface functionProps  {
+     (a: number):  void;
+}

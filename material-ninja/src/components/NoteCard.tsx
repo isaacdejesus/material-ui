@@ -1,8 +1,8 @@
 import {Typography, Card, CardHeader, CardContent, IconButton, Avatar} from '@mui/material';
-import {Note } from '../types';
+import {Note, functionProps } from '../types';
 import DeleteOutlineIcon from '@mui/icons-material/DeleteOutline';
 import { yellow, green, pink, blue} from '@mui/material/colors';
-const NoteCard = ({note, handleDelete}: {note: Note, handleDelete: any}) => {
+const NoteCard = ({note, handleDelete}: {note: Note, handleDelete: functionProps}) => {
     const styles = {
         avatar: {
             backgroundColor: (note: any) => {
